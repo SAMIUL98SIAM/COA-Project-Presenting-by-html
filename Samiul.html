@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+    <html lang="en-US">
+		<head>
+            <meta charset="utf-8"/> 
+			<title>Project Group 9-Samiul</title>
+		    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+
+		    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+		    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+		    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+		    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+		    <link rel="stylesheet" href="font/font.css"/> 
+	        <link rel="stylesheet" href="css/nivo-slider.css">
+            <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'/>
+		    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'/>
+		    <link rel="shortcut icon" href="img/favicon.ico"/>
+		    <link rel="icon" href="img/favicon.png"/>
+			<link rel="stylesheet" href="style.css"/>
+		</head>
+		<body>
+			<div class="main_wrap header_bg">
+			  	<div class="wrap">
+			  		<header>	
+						<div id="header">
+							<img src="img/Aiub.png" alt="logo medium Image"/>
+							<h2>Source Code - Samiul part </h2>
+						</div>
+				</header>
+			  	</div>	
+		    </div> 
+			<div class="main_wrap nav_bg">
+			  	<div class="wrap">
+				  	 <nav>
+	               <div class="menu" id="sticker">
+	            	<ul>
+	                    <li><a href="home.html">Home</a></li>
+			            <li><a href="AssemblyCode.html">Source Code</a></li>
+			            <li><a href="CodeOutput.html">Code Output</a></li>
+			            <li><a href="Fun.html">About Us</a></li>
+		            </ul>
+		            <div id="mySidebar" class="sidebarr">
+		                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+		                <a href="Samiul.html">Samiul Part</a>
+		                <a href="Sibbir.html">Sibbir Part</a>
+		                <a href="Tonwi.html">Rubaia</a>
+		                <a href="Asad.html">Asadujjaman</a>
+		              </div>
+		                <div id="main" class="floatright">
+		              <button class="openbtn" onclick="openNav()">☰ Open Sidebar</button> 
+		            </div>
+		          </div>
+		        </nav>  
+			  	</div>	
+	        </div> 		
+			
+		    <div class="main_wrap content_bg_A">
+		    	<div class="wrap">
+		    		<div class="fix content_wrapper">	    	
+				    <div class="fix middle_index_AssemblyCode">
+				    <h1>HOQUE,MD. SAMIUL<h1/>
+				    <h1>18-38844-3</h1>	
+				    <h2>Samiul's part Project - Class Note</h2>		
+				    <code class="aligncenter">
+					.MODEL LARGE<br/>
+					.STACK 1000H<br/>
+					.DATA<br/><br/>
+
+					M1 DB 10,13,10,13,'                 >>>>NOTEBOOK<<<< $',10,13<br/> 
+
+					M2 DB 10,13,10,13,'ENTER YOUR CHOICE : $'<br/><br/><br/>
+
+
+
+					M3 DB 10,13,'          | 1.Chapter one(Microcomputer <br/>systems)                               ||$'  <br/><br/>
+
+					M4 DB 10,13,'          | 2.Chapter two(Representation of Number and<br/> Characters)             ||$' <br/><br/>
+
+					M5 DB 10,13,'          | 3.Chapter three(Organization of IBM personal<br/> computer )            ||$'<br/><br/> 
+
+					M6 DB 10,13,'          | 4.Chapter four(Introduction to IBM pc Assembly <br/>language)           ||$' <br/><br/>
+
+					M7 DB 10,13,'          | 5.Chapter five(The Stack and Introduction to <br/>Procedures)           ||$' <br/><br/><br/><br/>
+
+
+
+					               
+
+					               
+
+					M8 DB 10,13,10,13,'----Choice your Topic from the NOTEBOOK----$'<br/><br/><br/>
+
+					  
+
+					;Chapter one(Microcomputer systems)<br/><br/>  
+
+					M9  DB 10,13,'  ||           1.The Components of a Microcomputer <br/>System           Page-1         ||$'  ;Chapter one<br/>
+
+					M10 DB 10,13,'  ||   <br/>        2.Memory                                             Page-2         ||$' <br/>
+
+					M11 DB 10,13,'  ||           3.Bus connection of a <br/>
+					microcomputer                  Page-3         ||$' <br/>
+
+					M12 DB 10,13,'  ||           4.The <br/>CPU                                            Page-4         ||$' <br/>
+
+					M13 DB 10,13,'  ||           5.I/O <br/>ports                                          Page-5         ||$' <br/><br/><br/>
+
+
+
+					 
+
+
+
+					;Chapter two(Representation of Number and Characters) <br/><br/><br/>
+
+
+
+					M14 DB 10,13,'  ||  1.Number Systems   <br/>                               Page-6            ||$'   ;Chapter two<br/><br/>
+
+					M15 DB 10,13,'  ||  2.Conversion between number systems   <br/>            Page-7            ||$' <br/><br/>
+
+					M16 DB 10,13,'  ||  3.Unsigned integers     <br/>                          Page-8            ||$'  <br/><br/>
+
+					M17 DB 10,13,'  ||  4.Signed integers   <br/>                              Page-9            ||$' <br/><br/>
+
+					M18 DB 10,13,'  ||  5.Characters Representation     <br/>                  Page-10           ||$' <br/><br/><br/>
+
+
+
+					 
+
+					;Chapter three(Organization of IBM personal computer )<br/><br/><br/>
+
+					    
+
+					M19 DB 10,13,'  ||  1.Registers               Page-11         ||$' <br/>
+
+					M20 DB 10,13,'  ||  2.Data Registers          Page-12         ||$' <br/>
+
+					M21 DB 10,13,'  ||  3.Segment Registers       Page-13         ||$'  <br/>
+
+					M22 DB 10,13,'  ||  4.Instruction pointer     Page-14         ||$'<br/> 
+
+					M23 DB 10,13,'  ||  5.Flags registers         Page-15         ||$' <br/><br/><br/>
+
+
+
+					 
+
+					;Chapter four(Introduction to IBM pc Assembly language)  <br/><br/>
+
+
+
+					M24 DB 10,13,'  ||  1.Variables              Page-16           ||$' <br/>
+
+					M25 DB 10,13,'  ||  2.Data Segment           Page-17           ||$'<br/> 
+
+					M26 DB 10,13,'  ||  3.Stack Segment          Page-18           ||$' <br/>
+
+					M27 DB 10,13,'  ||  4.Code Segment           Page-19           ||$' <br/><br/><br/>
+
+
+
+
+
+
+
+					;Chapter five(The Stack and Introduction to Procedures)<br/><br/>
+
+					  
+
+					M28 DB 10,13,'  ||  1.Push and Pushf    Page-20              ||$' <br/>
+
+					M29 DB 10,13,'  ||  2.Pop and Popf      Page-21              ||$'<br/>
+
+					M30 DB 10,13,'  ||  3.procedure         Page-22              ||$'<br/>
+
+					M31 DB 10,13,'  ||  4.Call and Return   Page-23              ||$'<br/><br/>
+
+
+
+					;CHAPTER ONE CONTENTS <br/><br/><br/>
+
+					CHP11 DB 10,13,10,13,'====================CONTENT OF THE CHAPTER ONE TOPIC<br/>
+					 ONE======================== Intel introduced the first microprocessor<br/> in 1971 and called it the 4004 chip. Todays microprocessors, with <br/>dimensions smaller than a dime, offer more power and capabilities. The <br/>center of the computer, the central processing unit (CPU) consists of<br/> one or more microprocessors.$'<br/>
+
+					CHP12 DB 10,13,10,13, '====================CONTENT OF THE CHAPTER ONE <br/>TOPIC TWO======================== Information processed is stored in <br/>memory ?A memory circuit element can store one bit of data [i.e. 0 or 1] <br/>Memory circuits are organized as a group of 8 bits of data$'<br/>
+
+					CHP13 DB 10,13,10,13,   '====================CONTENT OF THE CHAPTER ONE <br/>TOPIC THREE======================== A processor communicates with memory <br/>and I/O devices by using signals.Signals are travelled along set of<br/> wires or connections called buses.$'<br/>
+
+					CHP14 DB 10,13,10,13,   '====================CONTENT OF THE CHAPTER ONE <br/>TOPIC FOUR======================== CPU is the brain of computer.CPU <br/>controls computer by executing programs (i.e. system or application).Each <br/>instruction CPU executes, is a bit string.$'<br/>
+
+					CHP15 DB 10,13,10,13,   '====================CONTENT OF THE CHAPTER ONE<br/> TOPIC FIVE======================== I/O DEVICES OR PERIPHERALS? Keyboard <br/>? Display Unit ? Disk drives$'<br/>
+
+
+
+
+					;CHAPTER TWO CONTENTS <br/><br/>
+
+					CHP21 DB 10,13,10,13,  '=======================CONTENT OF THE CHAPTER TWO <br/>TOPIC ONE======================== Decimal NumbersBinary Number system <br/>Hexadecimal Number system$'<br/>
+
+					CHP22 DB 10,13,10,13,   '=======================CONTENT OF THE CHAPTER TWO<br/> TOPIC TWO======================== • Binary to decimal1 Decimal to <br/>Binary 2 Hexadecimal to Decimal 3 Decimal to Hex 4 Hex to Binary 5 Binary to Hex$'<br/>
+
+					CHP23 DB 10,13,10,13,   '=======================CONTENT OF THE CHAPTER TWO<br/> TOPIC THREE======================== Unsigned integers: Non-negative integer The largest unsigned integer of a byte= 11111111b or 255d or FFh <br/>The largest unsigned integer of a word= 1111111111111111b or 65535d or FFFFh$'<br/>
+
+					CHP24 DB 10,13,10,13,   '=======================CONTENT OF THE CHAPTER TWO <br/>TOPIC FOUR======================== Signed Integer: Can be positive or<br/> negative number The MSB is reserved for the sign MSB =1 [Negative] MSB =0 [Positive]$'<br/>
+
+					CHP25 DB 10,13,10,13,   '=======================CONTENT OF THE CHAPTER TWO<br/> TOPIC FIVE======================== ASCII code system Uses 7bits = 2^7<br/>=128 to code each character. Codes from 32 to 126 = 95 characters are<br/> only printable. ** to display the character A on the screen, a program sends theASCII code 41h to the screen.$'<br/>
+
+					;CHAPTER THREE CONTENTS <br/><br/>
+
+					CHP31 DB 10,13,10,13,  '=======================CONTENT OF THE CHAPTER <br/>THREE TOPIC ONE======================== Information inside the <br/>microprocessor is stored in registers. Registers are classified according <br/>to their functions.Data register holds the data for an <br/>operationAddress register holds the address for an instruction or data. ? Status register keeps the current status of the processor.$'<br/><br/>
+
+					CHP32 DB 10,13,10,13,   '=======================CONTENT OF THE CHAPTER <br/>THREE TOPIC TWO======================== DX is used in multiplication, <br/>division and I/O operations$'<br/><br/>
+
+					CHP33 DB 10,13,10,13,   '=======================CONTENT OF THE CHAPTER<br/> THREE TOPIC THREE======================== Memory is a collection of <br/>bytes. Each memory bytes has an address starting with 0. The 8086 assigns<br/> 20-bit physical address to its memory location.[i.e. we can address<br/> 2^20(1MB) of memory]. Thus the first byte of the memory addresses$'<br/><br/><br/>
+					CHP34 DB 10,13,10,13,   '=======================CONTENT OF THE CHAPTER <br/>THREE TOPIC FOUR======================== The memory registers are for <br/>data access. The 8086 uses CS and IP registers to access instructions.<br/> CS contains the segment number and IP contains the offset of next <br/>register.$'<br/>
+
+					CHP35 DB 10,13,10,13,   '=======================CONTENT OF THE CHAPTER <br/>THREE TOPIC FIVE======================== FLAGS register is used to <br/>indicate the status of the microprocessor. Indication is done by setting <br/>of individual bits [flags].There are two kinds of FLAGS$'
+<br/>
+
+					;CHAPTER FOUR CONTENTS <br/><br/>
+
+					CHP41 DB 10,13,10,13,  '=======================CONTENT OF THE CHAPTER FOUR <br/>TOPIC ONE======================== We use a variable to store values <br/>temporarily. Each variable has a data type and is assigned a memory <br/>address by the program. We will mostly use DB (define byte) and DW(<br/>define word) variables.$'<br/><br/>
+
+					CHP42 DB 10,13,10,13,   '=======================CONTENT OF THE CHAPTER <br/>FOUR TOPIC TWO======================== In computing, a data segment (<br/>often denoted .data) is a portion of an object file or the corresponding<br/> address space of a program that contains initialized static <br/>variables, that is, global variables and static local variables. The size of this segment is determined by the size of the values in the programs <br/>source code, and does not change at run time.$'<br/>
+
+					CHP43 DB 10,13,10,13,   '=======================CONTENT OF THE CHAPTER <br/>FOUR TOPIC THREE======================== The Stack Segment is a segment<br/> that holds a stack. Its a stack implementation of memory locations. <br/>As the stack is a segment, it is a contiguous array of memory locations.$'<br/>
+
+					CHP44 DB 10,13,10,13,   '=======================CONTENT OF THE CHAPTER <br/>FOUR TOPIC FOUR======================== In computing, a code segment, also known as a text segment or simply as text, is a portion of an object<br/> file or the corresponding section of the programs virtual address <br/>space that contains executable instructions.$'
+<br/>
+
+
+
+
+
+
+					;CHAPTER FIVE CONTENTS <br/><br/>
+
+					CHP51 DB 10,13,10,13,  '=======================CONTENT OF THE CHAPTER FIVE<br/> TOPIC ONE======================== The PUSHF (push flags) and PUSHFD (push flags double) mnemonics reference the same opcode. The PUSHF <br/>instruction is intended for use when the operand-size attribute is 16 and<br/> the PUSHFD instruction for when the operand-size attribute is 32.$'<br/><br/>
+
+					CHP52 DB 10,13,10,13,   '=======================CONTENT OF THE CHAPTER <br/>FIVE TOPIC TWO======================== The PUSHF (push flags) and PUSHFD (push flags double) mnemonics reference the same opcode. The PUSHF <br/>instruction is intended for use when the operand-size attribute is 16 and the PUSHFD instruction for when the operand-size attribute is 32.$'<br/>
+
+					CHP53 DB 10,13,10,13,   '=======================CONTENT OF THE CHAPTER <br/>FIVE TOPIC THREE======================== Procedures or subroutines are <br/>very important in assembly language, as the assembly language programs <br/>tend to be large in size. Procedures are identified by a name. Following this name, the body of the procedure is described which performs<br/> a well-defined job. End of the procedure is indicated by a return statement.$'<br/><br/>
+
+					CHP54 DB 10,13,10,13,   '=======================CONTENT OF THE CHAPTER <br/>FIVE TOPIC FOUR======================== Two instructions control the use <br/>of assembly-language procedures: CALL pushes the return address onto <br/>the stack and transfers control to a procedure. RET pops the return address off the stack and returns control to that location.$'<br/><br/><br/>
+
+
+
+
+
+
+					;INVALID<br/>
+
+					M32 DB 10,13,10,13,'***INVALID ENTRY***$'<br/>
+
+					M33 DB 10,13,'      ***Try Again***$'<br/><br/><br/>
+
+
+
+
+
+
+
+					M34 DB 10,13,10,13,'Enter your topic number: $'<br/><br/><br/>
+
+
+
+
+
+
+
+					M60 DB 10,13,10,13,'1. Press 1 to Go Back to Main page  $'<br/><br/>
+
+					M61 DB 10,13,"2. Press 2 to Go Back to the current chapter's topic page  $"<br/>
+
+					M62 DB 10,13, '3. Press 3 to Exit  $ '<br/><br/><br/><br/>
+
+
+
+
+
+					;STAR RESIZE<br/><br/>
+
+
+
+					                                                                                
+
+					MR1 DB 10,13,'  <br/>||  <br/>                                                                       ||$'<br/>
+
+					MR2 DB 10,13,'  ___________________________________________________________<br/>_________________________$'<br/>
+
+
+
+					MR3 DB 10,13,'  --                                                                         --$'<br/>
+
+
+
+
+
+					MR4 DB 10,13,'  <br/>--                                                               --$'<br/>
+
+					MR5 DB 10,13,' <br/> ___________________________________________________________________$'<br/>
+
+
+
+
+
+
+
+					MR6 DB 10,13,'<br/>  ||    <br/>                                                                     ||$'<br/>
+
+					MR7 DB 10,13,'  ___________________________________________________________<br/>_________________________$'<br/>
+
+
+
+
+					SEJ DB 10,13,10,13,' $'<br/><br/><br/><br/>
+
+
+
+					.CODE<br/>
+
+					MAIN PROC<br/><br/>
+
+					    MOV AX,@DATA<br/>
+
+					    MOV DS,AX<br/>
+					    
+					    ;========================TOP===============================<br/>
+					 
+					  TOP:<br/><br/><br/><br/>
+
+					  
+
+					    LEA DX,M1<br/>
+
+					    MOV AH,9<br/>
+
+					    INT 21H<br/><br/>
+
+					    
+
+					    LEA DX,SEJ ;NEWLINE<br/>
+
+					    MOV AH,9<br/>
+
+					    INT 21H<br/><br/>
+
+					    
+
+					    LEA DX,MR2<br/>
+
+					    MOV AH,9<br/>
+
+					    INT 21H<br/><br/>
+
+					       
+
+					    LEA DX,MR2<br/>
+
+					    MOV AH,9<br/>
+
+					    INT 21H     ;BORDER<br/><br/>
+
+					    
+
+					    LEA DX,MR3<br/>
+
+					    MOV AH,9<br/>
+
+					    INT 21H   <br/><br/><br/>
+
+					    
+
+					    
+
+					     
+
+					    
+
+					    LEA DX,M3<br/>
+
+					    MOV AH,9<br/>
+
+					    INT 21H<br/><br/>
+
+					    
+
+					    LEA DX,M4<br/>
+
+					    MOV AH,9<br/>
+
+					    INT 21H<br/><br/>
+
+					    
+
+					    LEA DX,M5<br/>
+
+					    MOV AH,9<br/>
+
+					    INT 21H<br/><br/>
+
+					    
+
+					    LEA DX,M6<br/>
+
+					    MOV AH,9<br/>
+
+					    INT 21H<br/><br/>
+
+					    
+
+					    LEA DX,M7<br/>
+
+					    MOV AH,9<br/>
+
+					    INT 21H<br/><br/>
+
+					   
+
+					    LEA DX,MR1<br/>
+
+					    MOV AH,9<br/>
+
+					    INT 21H<br/><br/>
+
+					    
+
+					    LEA DX,MR2<br/>
+
+					     MOV AH,9<br/>
+
+					    INT 21H<br/><br/>
+
+					   
+
+					    LEA DX,MR2<br/>
+
+					    MOV AH,9<br/>
+
+					    INT 21H<br/><br/>
+
+					    
+
+					    LEA DX,M2<br/>
+
+					    MOV AH,9<br/>
+
+					    INT 21H<br/><br/>
+
+					    
+
+					     
+
+					     
+
+					    MOV AH,1<br/>
+
+					    INT 21H<br/>
+
+					    MOV BH,AL<br/>
+
+					    SUB BH,48<br/><br/>
+
+					    
+
+					    CMP BH,1<br/>
+					    JE  CHP1<br/><br/>
+
+					    CMP BH,2<br/>
+					    JE  CHP2<br/><br/>
+
+					    CMP BH,3<br/>
+					    JE  CHP3<br/><br/>
+
+					    CMP BH,4<br/>
+					    JE  CHP4<br/><br/>
+
+					    CMP BH,5<br/>
+					    JE  CHP5<br/><br/><br/>
+
+					    
+					    
+
+					    JMP INVALID<br/><br/>
+
+					    
+
+					       
+
+					    
+					;====CHAPTER 1========CHAPTER 1========CHAPTER 1===================CHAPTER<br/> 1============CHAPTER 1=================CHAPTER 1==================<br/><br/><br/>
+					    
+
+					  CHP1:<br/><br/>
+
+
+					    LEA DX,M34    ;Chapter one(Microcomputer systems) <br/>
+
+					    MOV AH,9<br/>
+
+					    INT 21H<br/><br/>
+
+					    
+
+					    LEA DX,SEJ ;NEWLINE<br/>
+
+					    MOV AH,9<br/>
+
+					    INT 21H<br/><br/>
+
+					    
+
+					    LEA DX,MR5<br/>
+
+					    MOV AH,9<br/>
+
+					    INT 21H<br/><br/><br/>
+
+					    
+
+					    
+
+					    LEA DX,MR5<br/>
+
+					    MOV AH,9<br/>
+
+					    INT 21H<br/><br/><br/>
+
+					    
+
+					    LEA DX,MR4<br/>
+
+					    MOV AH,9<br/>
+
+					    INT 21H<br/><br/><br/>
+
+					   
+
+					    LEA DX,M9    ;item 1<br/>
+
+					    MOV AH,9<br/>
+
+					    INT 21H <br/><br/><br/>
+
+					    
+
+					    
+
+					    LEA DX,M10  ;item 2<br/>
+
+					    MOV AH,9<br/>
+
+					    INT 21H<br/><br/><br/>
+
+					    
+
+					    LEA DX,M11<br/>
+
+					    MOV AH,9          ;3nd<br/>
+
+					    INT 21H <br/><br/><br/>
+
+					    
+
+					    LEA DX,M12<br/>
+
+					    MOV AH,9           ;4rd<br/>
+
+					    INT 21H<br/><br/><br/>
+
+					    
+
+					    
+
+					    LEA DX,M13         ;5th<br/>
+
+					    MOV AH,9<br/>
+
+					    INT 21H<br/><br/><br/>
+
+					    
+
+					    
+
+					    
+
+					    LEA DX,MR4<br/>
+
+					    MOV AH,9<br/>
+
+					    INT 21H<br/><br/><br/>
+
+					    
+
+					    LEA DX,MR5<br/>
+
+					    MOV AH,9<br/>
+
+					    INT 21H<br/><br/><br/>
+
+					    
+
+					    
+
+					    LEA DX,MR5<br/>
+
+					    MOV AH,9<br/>
+
+					    INT 21H<br/><br/><br/>
+
+					    
+
+					    
+
+					    LEA DX,M34<br/>              
+
+					    MOV AH,9<br/>
+
+					    INT 21H <br/><br/>
+
+					    
+
+					    
+
+					    MOV AH,1<br/>
+
+					    INT 21H<br/>
+
+					    MOV BL,AL<br/>
+
+					    SUB BL,48 <br/><br/><br/>
+
+					    
+
+					    CMP BL,1<br/>
+					    JE  CHAPTER11<br/>
+					    
+					    CMP BL,2<br/>
+					    JE  CHAPTER12<br/>
+					    
+					    CMP BL,3<br/>
+					    JE  CHAPTER13<br/>
+					    
+					    CMP BL,4<br/>
+					    JE  CHAPTER14<br/>
+					    
+					    CMP BL,5<br/>
+					    JE  CHAPTER15<br/><br/>
+					    
+
+					    JMP INVALID<br/><br/><br/><br/>
+
+					    
+
+					    
+
+					                        ;CHAPTER 1 CONTENTS<br/><br/>
+
+					    
+
+					                        ;CHP11<br/><br/><br/><br/>
+
+					    
+
+					    CHAPTER11:<br/><br/><br/>
+
+					    
+
+					    LEA DX,CHP11    ;Chapter one topic one (Microcomputer systems) <br/>
+
+					    MOV AH,9<br/><br/>
+
+					    INT 21H<br/>
+
+					    
+
+					    LEA DX,SEJ ;NEWLINE<br/>
+
+					    MOV AH,9<br/>
+
+					    INT 21H<br/><br/>
+
+					    
+
+					    ;GO BACK TO MAIN MENU<br/>
+
+					    
+
+					    LEA DX,M60<br/>
+
+					    MOV AH,9<br/>
+
+					    INT 21H<br/><br/><br/>
+
+					    
+
+					    LEA DX,M61<br/>
+
+					    MOV AH,9<br/>
+
+					    INT 21H<br/><br/>
+
+					    
+
+					    LEA DX,M62<br/>
+
+					    MOV AH,9<br/>
+
+					    INT 21H<br/><br/>
+
+					    
+
+					    LEA DX,M2<br/>
+
+					    MOV AH,9<br/><br/>
+
+					    INT 21H <br/><br/>
+
+					    
+
+					    MOV AH,1<br/>
+
+					    INT 21H<br/>
+
+					    SUB AL,48<br/><br/>
+
+					    
+
+					    
+
+					    CMP AL,1<br/>
+
+					    JE  TOP<br/><br/>
+
+					    
+
+					    CMP AL,2<br/>
+
+					    JE CHP1  <br/><br/>
+
+					    
+
+					    CMP AL,3<br/>
+
+					    JE EXIT<br/><br/>
+
+					    
+
+					    JMP INVALID<br/><br/>
+
+					    
+					       ;CHAPTER ONE CONTENT TWO<br/><br/>
+					       
+					    CHAPTER12:<br/><br/><br/>
+
+					    
+
+					    LEA DX,CHP12    ;Chapter one topic one (Microcomputer systems) <br/>
+
+					    MOV AH,9<br/>
+
+					    INT 21H<br/><br/><br/>
+
+					    
+
+					    LEA DX,SEJ ;NEWLINE<br/>
+
+					    MOV AH,9<br/>
+
+					    INT 21H<br/><br/>
+
+					    
+
+					    ;GO BACK TO MAIN MENU<br/>
+
+					    
+
+					    LEA DX,M60<br/><br/>
+
+					    MOV AH,9<br/>
+
+					    INT 21H<br/><br/><br/>
+
+					    
+
+					    LEA DX,M61<br/>
+
+					    MOV AH,9<br/>
+
+					    INT 21H<br/><br/>
+
+					    
+
+					    LEA DX,M62<br/>
+
+					    MOV AH,9<br/>
+
+					    INT 21H<br/><br/>
+
+					    
+
+					    LEA DX,M2<br/>
+
+					    MOV AH,9<br/>
+
+					    INT 21H <br/><br/>
+
+					    
+
+					    MOV AH,1<br/>
+
+					    INT 21H<br/>
+
+					    SUB AL,48<br/><br/>
+
+					    
+
+					    
+
+					    CMP AL,1<br/>
+
+					    JE  TOP<br/><br/>
+
+					    
+
+					    CMP AL,2<br/>
+
+					    JE CHP1  <br/><br/>
+
+					    
+
+					    CMP AL,3<br/>
+
+					    JE EXIT<br/><br/>
+
+					    
+
+					    JMP INVALID<br/><br/>
+
+					    
+					    
+					;CHAPTER ONE CONTENT THREE<br/>
+					       
+					    CHAPTER13:<br/><br/><br/>
+
+					    
+
+					    LEA DX,CHP13    ;Chapter one topic one (Microcomputer systems) <br/>
+
+					    MOV AH,9<br/>
+
+					    INT 21H<br/><br/>
+
+					    
+
+					    LEA DX,SEJ ;NEWLINE<br/>
+
+					    MOV AH,9<br/>
+
+					    INT 21H<br/><br/><br/>
+
+					    
+
+					    ;GO BACK TO MAIN MENU<br/><br/>
+
+					    
+
+					    LEA DX,M60<br/>
+
+					    MOV AH,9<br/>
+
+					    INT 21H<br/><br/>
+
+					    
+
+					    LEA DX,M61<br/><br/>
+
+					    MOV AH,9<br/>
+
+					    INT 21H<br/>
+
+					    
+
+					    LEA DX,M62<br/>
+
+					    MOV AH,9<br/>
+
+					    INT 21H<br/><br/>
+
+					    
+
+					    LEA DX,M2<br/>
+
+					    MOV AH,9<br/>
+
+					    INT 21H <br/><br/>
+
+					    
+
+					    MOV AH,1<br/><br/>
+
+					    INT 21H<br/><br/>
+
+					    SUB AL,48<br/><br/>
+
+					    
+
+					    
+
+					    CMP AL,1<br/>
+
+					    JE  TOP<br/><br/>
+
+					    
+
+					    CMP AL,2<br/>
+
+					    JE CHP1  <br/><br/>
+
+					    
+
+					    CMP AL,3<br/>
+
+					    JE EXIT<br/><br/>
+
+					    
+
+					    JMP INVALID<br/><br/>
+
+					 
+
+
+
+
+
+
+
+ 
+				                </code>
+				            </div> 
+				      </div>
+				</div>  	
+		  	</div>           			         
+			<div class="main_wrap">
+		  	     <div class="wrap footer_bg">
+		  	     	<footer>
+	                  <div id="footer"> 
+	                      <div id="footer_col">
+	                      	
+	                      	<p>
+	                      		lorem ipsum..lorem ipsum..lorem ipsum..lorem ipsum..
+	                      		lorem ipsum..lorem ipsum..lorem ipsum..lorem ipsum..
+	                         </p>
+	                      </div>
+	                     <div id="footer_col1">
+	                      	<h2>Group No:09 </h2>
+	                      	<p>Class Note Project</p>
+	                            <p>* lorem iplsum.lorem ipsum..lorem ipsum..lorem ipsum..lorem ipsum..lorem ipsum..lorem ipsum..</p>
+	                           <span id="span"> &copy; Copyright Md. Samiul 2016 </span>
+	                         
+	                      </div>
+	                      <div id="footer_col2">
+	                      	<p style="font-family: fantasy;">
+	                  
+
+	                            "Amazing Project! Great service! Couldn't ask for more!
+	                      </div>
+				         <div></div>
+	                  </div>
+				  </footer>
+		  	     </div>	
+	         </div> 
+	
+						<script src="js/nav.js"></script>
+	    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>   
+	  <script type="text/javascript">
+	        $(document).ready(function() {
+	      var s = $("#sticker");
+	      var pos = s.position();            
+	      $(window).scroll(function() {
+	        var windowpos = $(window).scrollTop();
+	        if (windowpos >= pos.top) {
+	          s.addClass("stick");
+	        } else {
+	          s.removeClass("stick"); 
+	        }
+	      });
+	      });
+	    </script> 	
+		
+		
+			  <script src="js/jquery-2.1.4.min.js"></script>
+		  <script src="js/bootstrap.min.js"></script>
+		  <script src="js/ajax-utils.js"></script>
+		  <script src="js/script.js"></script>
+      	<script src="js/jquery-1.9.0.min.js"></script>
+	    <script src="js/jquery.nivo.slider.js"></script>
+	    <script>
+	    $(window).load(function() {
+	        $('#slider').nivoSlider();
+	    });
+	    </script>   
+        </body>
+	</html>
+
+	<!---
+	  <div class="main_wrap">
+	  	<div class="wrap">
+	  	</div>	
+	  </div> 
+	----->
